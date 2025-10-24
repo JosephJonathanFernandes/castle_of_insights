@@ -1,0 +1,38 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Local environment files
+.env
+
+# Optional: ignore data files if you don't want them in version control
+# Uncomment if desired
+# *.csv
+# *.xlsx
+
+# Bokeh state
+.bokeh/
