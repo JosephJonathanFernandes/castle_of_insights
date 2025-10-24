@@ -70,9 +70,9 @@ app.layout = html.Div([
     dcc.Graph(id='rating-bar'),
     dcc.Graph(id='tenure-bar'),
 
-    html.Hr(),
-    html.H4("Bokeh interactive view"),
-    html.Iframe(src="http://localhost:5006/bokeh_dashboard", width="100%", height="620")
+   # html.Hr(),
+   # html.H4("Bokeh interactive view"),
+    #html.Iframe(src="http://localhost:5006/bokeh_dashboard", width="100%", height="620")
 ])
 
 
